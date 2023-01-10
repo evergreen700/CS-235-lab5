@@ -3,9 +3,8 @@
 #define NODE_H
 
 #include <iostream>
-#include "NodeInterface.h"
 
-class Node : public NodeInterface {
+class Node{
 
 public:
 	Node();
