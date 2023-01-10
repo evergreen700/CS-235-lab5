@@ -2,11 +2,10 @@
 #define BST_H
 
 #include "Node.h"
-#include "BSTInterface.h"
 
 using namespace std;
 
-class BST : public BSTInterface{
+class BST{
 public:
 	BST();
 	virtual ~BST();
